@@ -1,27 +1,20 @@
-# Internet Speed Predictor App
+Internet Speed Predictor App
 
-## Stack
+Stack
 React frontend, FastAPI backend, XGBoost model via scikit-learn
 
-## Usage
+Usage
 1. Add `best_model.pkl` to `backend/models/`
 2. Run `docker-compose up --build`
 
-## Frontend
+Frontend
 http://localhost:3000
 
-## Backend
+Backend
 http://localhost:8000/api/predict
 
-## Inputs
-- Latitude
-- Longitude
-- Upload Speed
-- Latency
-- Hour
-- Day of Week
-- Connection Type
-- Server Name
+Inputs:
+latitude, longitude, upload speed, altency, hour, day of week, connection type, server name
 
-## Output
-- Predicted Download Speed (Mbps)
+Output:
+predicted download speed (mbps)
